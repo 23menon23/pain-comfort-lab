@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use or adapt this lab, please cite it as below."
+title: "The Pain–Comfort Lab: Looking Inside a Language Model"
+abstract: >-
+  A curiosity-driven, inquiry-based lab for beginners with basic machine-learning
+  knowledge but no transformer experience. Across eight Jupyter notebooks, students
+  take snapshots of an open language model's internal activations, find a
+  pain-to-comfort direction, test it against a sealed test set and controls
+  (shuffled labels, random directions, a bag-of-words baseline), nudge the model
+  along it (activation steering), and design their own investigation. Every step
+  includes code walk-throughs that show what each line returns, why each data
+  structure and parameter was chosen, and how to inspect shapes.
+type: software
+authors:
+  - family-names: Menon
+    given-names: Pratibha
+    affiliation: Pennsylvania Western University
+version: 1.0.0
+license:
+  - CC-BY-4.0
+  - MIT
+repository-code: "https://github.com/23menon23/pain-comfort-lab"
+keywords:
+  - explainable AI
+  - interpretability
+  - language models
+  - activation steering
+  - probing
+  - computing education
+  - inquiry-based learning
+  - Jupyter notebooks

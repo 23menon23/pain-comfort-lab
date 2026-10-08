@@ -1,0 +1,37 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install (CPU-only PyTorch keeps this fast)
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt pytest nbclient ipykernel cffconvert
+      - name: Validate citation metadata
+        run: |
+          cffconvert --validate
+          python -m json.tool .zenodo.json > /dev/null
+      - name: Run tests (every notebook runs end to end on a tiny random model)
+        env:
+          PCLAB_TEST_MODEL: '1'
+          MPLBACKEND: Agg
+        run: pytest -q
+      - name: Check notebooks are committed without outputs
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          bad = [p.name for p in pathlib.Path('notebooks').glob('*.ipynb')
+                 if any(c.get('outputs') for c in json.load(open(p))['cells'] if c['cell_type'] == 'code')]
+          sys.exit(f'Notebooks with outputs: {bad}' if bad else 0)
+          PY

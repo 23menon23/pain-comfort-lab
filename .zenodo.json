@@ -1,0 +1,33 @@
+{
+  "title": "The Pain–Comfort Lab: Looking Inside a Language Model",
+  "upload_type": "lesson",
+  "description": "<p>A curiosity-driven, inquiry-based lab for beginners with basic machine-learning knowledge but no transformer experience. Across eight Jupyter notebooks (Google Colab ready), students take snapshots of an open language model's internal activations (Qwen2.5-1.5B), find a pain-to-comfort direction, test it against a sealed test set and controls (shuffled labels, random directions, a bag-of-words baseline), nudge the model along it (activation steering), and design their own investigation.</p><p>Every step includes code walk-throughs that show what each line returns, why each data structure and parameter was chosen, and how to inspect shapes. Includes a small labelled sentence dataset with a datasheet, a student worksheet, an instructor guide and a research-ideas guide.</p><p>The lab can show whether a model's internal numbers contain a pattern linked to pain-versus-comfort language; it cannot show that a model feels anything.</p><p>Text and data: CC BY 4.0. Code: MIT.</p>",
+  "creators": [
+    {
+      "name": "Menon, Pratibha",
+      "affiliation": "Pennsylvania Western University"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.0",
+  "keywords": [
+    "explainable AI",
+    "interpretability",
+    "language models",
+    "activation steering",
+    "probing",
+    "computing education",
+    "inquiry-based learning",
+    "Jupyter notebooks"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://arxiv.org/abs/2412.15115", "relation": "references", "resource_type": "publication-preprint"},
+    {"identifier": "https://arxiv.org/abs/2312.06681", "relation": "references", "resource_type": "publication-preprint"},
+    {"identifier": "https://arxiv.org/abs/2308.10248", "relation": "references", "resource_type": "publication-preprint"},
+    {"identifier": "https://arxiv.org/abs/1610.01644", "relation": "references", "resource_type": "publication-preprint"},
+    {"identifier": "https://arxiv.org/abs/1909.03368", "relation": "references", "resource_type": "publication-preprint"}
+  ],
+  "notes": "Developed with assistance from generative AI tools (Claude, Anthropic) for code drafting, explanation revision, restructuring and testing; all content was reviewed by the author. The Qwen2.5-1.5B model is not included; it is downloaded from Hugging Face under its Apache 2.0 licence."
+}

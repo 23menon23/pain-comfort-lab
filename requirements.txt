@@ -1,0 +1,12 @@
+# Google Colab already has everything here. For your own computer:
+#   pip install -r requirements.txt
+torch>=2.2
+transformers>=4.57
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+ipywidgets
+packaging
+jupyterlab

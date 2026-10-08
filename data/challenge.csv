@@ -1,0 +1,9 @@
+challenge_id,text,type,what_makes_it_tricky
+1,"The runner's legs burned, but she was thrilled to finish.",mixed,physical pain + positive emotion
+2,The stove burned his hand and he pulled away.,literal,literal burn; compare with the 'burning desire' sentence
+3,He felt a burning desire to win the competition.,metaphor,"pain word used as a metaphor, no physical sensation"
+4,"The dentist used anesthesia, and the procedure did not hurt.",negation,pain word ('hurt') negated
+5,"The spicy meal stung her mouth, but she loved the flavor.",mixed,physical sting + enjoyment
+6,"He expected the needle to hurt, but felt only a gentle touch.",negation,expected pain that did not happen
+7,She was happy about the prize while her injured ankle throbbed.,mood_vs_sensation,positive mood + physical pain
+8,He was disappointed by the news while enjoying a soothing bath.,mood_vs_sensation,negative mood + physical comfort

@@ -1,0 +1,61 @@
+split,pair_id,label,category,text
+build,build-00,1,Comfort,The bath water soothed her skin with gentle warmth.
+build,build-00,0,Pain,The bath water scalded her skin with intense heat.
+build,build-01,1,Comfort,The blanket rested softly against his body.
+build,build-01,0,Pain,The blanket scraped roughly against his irritated skin.
+build,build-02,1,Comfort,The breeze cooled her cheeks pleasantly.
+build,build-02,0,Pain,The breeze stung her cheeks with biting cold.
+build,build-03,1,Comfort,The massage released the tension in his shoulders.
+build,build-03,0,Pain,The massage pressed on his injury and made his shoulders ache.
+build,build-04,1,Comfort,The pillow cushioned her neck comfortably.
+build,build-04,0,Pain,The pillow strained her neck until it hurt.
+build,build-05,1,Comfort,The shoes supported his feet comfortably on the walk.
+build,build-05,0,Pain,The shoes rubbed his feet until blisters stung on the walk.
+build,build-06,1,Comfort,The shower gently refreshed her tired body.
+build,build-06,0,Pain,The shower struck her sunburned body with painful force.
+build,build-07,1,Comfort,The scarf felt smooth and soothing against his neck.
+build,build-07,0,Pain,The scarf felt scratchy and made his neck sting.
+build,build-08,1,Comfort,The swimming water refreshed her skin after the heat.
+build,build-08,0,Pain,The swimming water irritated her skin and made it burn.
+build,build-09,1,Comfort,The stretch eased the tightness in his leg.
+build,build-09,0,Pain,The stretch pulled his injured leg and caused a sharp ache.
+build,build-10,1,Comfort,The tea warmed her throat pleasantly.
+build,build-10,0,Pain,The tea burned her throat when she swallowed.
+build,build-11,1,Comfort,The seat supported his back and helped him relax.
+build,build-11,0,Pain,The seat pressed against his injured back and made it throb.
+build,build-12,1,Comfort,The cream soothed her dry hands.
+build,build-12,0,Pain,The cream made the cuts on her hands sting.
+build,build-13,1,Comfort,The grass felt soft beneath his bare feet.
+build,build-13,0,Pain,The grass concealed sharp thorns that pierced his bare feet.
+build,build-14,1,Comfort,The breeze from the fan felt refreshing on her skin.
+build,build-14,0,Pain,The hot air from the fan felt scorching on her skin.
+build,build-15,1,Comfort,The warm pack eased the ache in his muscles.
+build,build-15,0,Pain,The overheated pack burned the skin over his muscles.
+validation,validation-00,1,Comfort,"The towel touched her face with a soft, soothing warmth."
+validation,validation-00,0,Pain,The towel rubbed her raw face and caused a sharp sting.
+validation,validation-01,1,Comfort,The cool cloth brought relief to his forehead.
+validation,validation-01,0,Pain,The coarse cloth scraped his forehead painfully.
+validation,validation-02,1,Comfort,The ripe peach tasted sweet and pleasant in her mouth.
+validation,validation-02,0,Pain,The sour peach irritated the sore inside her mouth.
+validation,validation-03,1,Comfort,The slippers cushioned his feet as he stood.
+validation,validation-03,0,Pain,The tight slippers squeezed his swollen toes until they ached.
+validation,validation-04,1,Comfort,The gentle sunlight felt pleasant against her arms.
+validation,validation-04,0,Pain,The harsh sunlight left her arms burning with sunburn.
+validation,validation-05,1,Comfort,The mattress allowed his body to rest comfortably.
+validation,validation-05,0,Pain,The broken mattress pressed into his ribs painfully.
+test,test-00,1,Comfort,The cool gel soothed the skin on her wrist.
+test,test-00,0,Pain,The strong gel made the raw skin on her wrist sting.
+test,test-01,1,Comfort,The smooth pebble felt pleasantly cool in his palm.
+test,test-01,0,Pain,The sharp pebble cut his palm and caused a sudden sting.
+test,test-02,1,Comfort,The warm soup felt comforting as she swallowed.
+test,test-02,0,Pain,The boiling soup burned her tongue as she swallowed.
+test,test-03,1,Comfort,The loose glove felt soft around his fingers.
+test,test-03,0,Pain,The tight glove squeezed his injured fingers painfully.
+test,test-04,1,Comfort,The gentle combing felt pleasant against her scalp.
+test,test-04,0,Pain,The rough combing pulled her hair and made her scalp hurt.
+test,test-05,1,Comfort,The cool floor felt refreshing beneath his feet.
+test,test-05,0,Pain,The jagged floor scraped his feet and made them bleed.
+test,test-06,1,Comfort,The soft cushion supported her elbow comfortably.
+test,test-06,0,Pain,The hard edge pressed into her elbow and made it ache.
+test,test-07,1,Comfort,The gentle touch eased the tension in his arm.
+test,test-07,0,Pain,The forceful touch aggravated the bruise on his arm.
