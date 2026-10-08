@@ -1,7 +1,7 @@
 {
   "title": "The Pain–Comfort Lab: Looking Inside a Language Model",
   "upload_type": "lesson",
-  "description": "<p>A curiosity-driven, inquiry-based lab for beginners with basic machine-learning knowledge but no transformer experience. Across eight Jupyter notebooks (Google Colab ready), students take snapshots of an open language model's internal activations (Qwen2.5-1.5B), find a pain-to-comfort direction, test it against a sealed test set and controls (shuffled labels, random directions, a bag-of-words baseline), nudge the model along it (activation steering), and design their own investigation.</p><p>Every step includes code walk-throughs that show what each line returns, why each data structure and parameter was chosen, and how to inspect shapes. Includes a small labelled sentence dataset with a datasheet, a student worksheet, an instructor guide and a research-ideas guide.</p><p>The lab can show whether a model's internal numbers contain a pattern linked to pain-versus-comfort language; it cannot show that a model feels anything.</p><p>Text and data: CC BY 4.0. Code: MIT.</p>",
+  "description": "<p>A beginner-friendly, inquiry-based lab for looking inside an AI language model. In eight Colab notebooks, students find a pain-to-comfort direction in Qwen2.5's activations, test it against fair controls, and steer the model's writing, with step-by-step code walk-throughs so no one gets lost. It can't show that a model feels anything.</p><p>Text and data: CC BY 4.0. Code: MIT.</p>",
   "creators": [
     {
       "name": "Menon, Pratibha",
