@@ -120,10 +120,10 @@ The lab's methods come from published research. These are background sources, no
 
 ## How this lab was made
 
-Designed by Pratibha Menon (Pennsylvania Western University). The research question, learning goals, experimental design (paired sentences, a sealed test set, controls) and decisions about what to include are the author's.
+Designed by Pratibha Menon (Pennsylvania Western University). The original single notebook, research question and refrences, learning goals, experimental design (paired sentences, a sealed test set, controls) and decisions about what to include are the author's.
 
 Generative AI tools were used during development: **Claude (Anthropic)** helped draft code, revise the explanations for beginners, restructure the original single notebook into the eight-step version with code walk-throughs, review the code for errors and write automated tests. The author reviewed and edited all AI-assisted content and is responsible for its accuracy. AI tools are not authors of this lab.
 
-**How it was checked:** every notebook is executed end to end by the automated tests on a tiny, randomly initialised model of the same architecture. This verifies the code runs (hooks, plots, controls, generation, scoring, widgets, hook clean-up, export). It does not verify scientific results with the real model; instructors should run the notebooks on a Colab GPU before class.
+**How it was checked:** every notebook is executed end to end by the automated tests on a tiny, randomly initialised model of the same architecture. This verifies the code runs (hooks, plots, controls, generation, scoring, widgets, hook clean-up, export). The author verified the scientific results with the real model; instructors should run the notebooks on a Colab GPU before class.
 
 **For students:** you're welcome to use AI tools in your own work with this lab, following your instructor's policy. If you do, follow the same practice: **use it, disclose it, verify it, own it.**
