@@ -1,6 +1,6 @@
 # The Pain–Comfort Lab: Looking Inside a Language Model
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23228533.svg)](https://doi.org/10.5281/zenodo.23228533)
 [![Tests](https://github.com/23menon23/pain-comfort-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/23menon23/pain-comfort-lab/actions/workflows/tests.yml)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](LICENSE-CONTENT.md)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
